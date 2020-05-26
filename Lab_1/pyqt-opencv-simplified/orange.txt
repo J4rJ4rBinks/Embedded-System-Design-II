@@ -1,0 +1,8 @@
+Brightness                = 1
+contrast                  = 0.0
+rMin                      = 0
+rMax                      = 185
+bMin                      = 29
+bMax                      = 101
+gMin                      = 0
+gMax                      = 129
