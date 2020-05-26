@@ -1,0 +1,42 @@
+# Compile of lab2_tb.vhd was successful with warnings.
+# Compile of lab2.vhd was successful with warnings.
+# Compile of top.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.lab2_tb
+# vsim -gui work.lab2_tb 
+# Start time: 21:50:43 on Feb 12,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.lab2_tb(arch)
+# Loading ieee.numeric_std(body)
+# Loading work.lab2(beh)
+add wave -position insertpoint  \
+sim:/lab2_tb/clk \
+sim:/lab2_tb/reset \
+sim:/lab2_tb/enable_sig \
+sim:/lab2_tb/zero_percentage \
+sim:/lab2_tb/five_percentage \
+sim:/lab2_tb/ten_percentage \
+sim:/lab2_tb/fifteen_percentage \
+sim:/lab2_tb/twenty_percentage \
+sim:/lab2_tb/twentyfive_percentage \
+sim:/lab2_tb/thirty_percentage \
+sim:/lab2_tb/thirtyfive_percentage \
+sim:/lab2_tb/fourty_percentage \
+sim:/lab2_tb/fourtyfive_percentage \
+sim:/lab2_tb/fifty_percentage \
+sim:/lab2_tb/fiftyfive_percentage \
+sim:/lab2_tb/sixty_percentage \
+sim:/lab2_tb/sixtyfive_percentage \
+sim:/lab2_tb/seventy_percentage \
+sim:/lab2_tb/seventyfive_percentage \
+sim:/lab2_tb/eighty_percentage \
+sim:/lab2_tb/eightyfive_percentage \
+sim:/lab2_tb/ninety_percentage \
+sim:/lab2_tb/ninetyfive_percentage \
+sim:/lab2_tb/hundred_percentage \
+sim:/lab2_tb/tb_period
+run -all
+# End time: 22:02:01 on Feb 12,2020, Elapsed time: 0:11:18
+# Errors: 2, Warnings: 0
